@@ -10,7 +10,7 @@ with the I2C/SPI ports. KiCad design files are also included.
 [i2cspi_lib.asm](src/i2cspi_lib.asm) -
 This driver library includes all necessary routines to communicate with I2C and SPI hardware devices
 using the Z80-Retro! parallel port. Extensive comments and protocol descriptions are provided
-to help understand the library. The library requires the [retromon.sym](https://github.com/KRSynthWorx/z80-retro-monitor/src/retromon.sym)
+to help understand the library. The library requires the [retromon.sym](https://github.com/KRSynthWorx/z80-retro-monitor/blob/main/src/retromon.sym)
 symbol table from the [z80-retro-monitor](https://github.com/KRSynthWorx/z80-retro-monitor) project.
 
 ### PCB Hardware:

@@ -21,7 +21,20 @@ Requires +5vdc be connected from the Z80-Retro! or an external power supply.
 
 * A PDF version of the schematic can be found [here](kicad/i2c-adapter-schematic.pdf).
 
+### PCB Layout
+
 ![PC Board Image](kicad/i2c-adapter-pcb.png "I2C/SPI Master Interface Board")
+
+---
+
+### I2C Timing Capture
+
+![I2C Timing](kicad/i2c-timing.png "I2C Logic Anaylzer Write Timing")
+
+---
+
+### SPI Timing Capture
+![SPI Timing](kicad/spi-timing.png "SPI Logic Anaylzer Write Timing")
 
 ## Help
 

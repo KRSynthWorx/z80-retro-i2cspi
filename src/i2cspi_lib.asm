@@ -13,7 +13,7 @@
 ;
 ;	This I2C library...
 ;
-;	Copyright (C) 2022 Kenny Maytum - https://github.com/KRSynthWorx/z80-i2cspi
+;	Copyright (C) 2022 Kenny Maytum - https://github.com/KRSynthWorx/z80-retro-i2cspi
 ;
 ;	This library is free software; you can redistribute it and/or
 ;	modify it under the terms of the GNU Lesser General Public
@@ -145,7 +145,7 @@
 ; The physical I2C interface consists of the serial clock (SCL) and serial data (SDA) lines. Both SDA and
 ; SCL lines must be connected to VCC through a pull-up resistor. These lines are buffered with open drain/collector
 ; devices. The size of the pull-up resistor is determined by the amount of capacitance on the I2C lines 
-; (for further details, refer to Texas Instruments I2C Pull-up Resistor Calculation (SLVA689) Application Report.
+; (for further details, refer to Texas Instruments I2C Pull-up Resistor Calculation (SLVA689) Application Report).
 ; Data transfer may be initiated only when the bus is idle. A bus is considered idle if both SDA and SCL lines are
 ; high after a STOP condition.
 ;
@@ -375,7 +375,6 @@
 ;
 ;		sudo apt-get install srecord
 ;
-;
 ;	All of the included example programs are assembled at ORG 0x1000. The Z80asm v1.8 assembler does
 ;	not output the .hex files required by the monitor for uploading code. The Makefile uses the srec_cat
 ;	utility to convert .bin files to .hex files. An offset address is used by srec_cat to indicate the
@@ -384,7 +383,7 @@
 ;	change the offset in the Makefile. Comments in the Makefile indicate where to make this change.
 ;
 ;	The symbol table retromon.sym file is required to build this library and by default is located in
-;	the z80-retro-monitor/src/ folder and output during the build of retromon.asm. You can modify the
+;	the z80-retro-monitor/src/ directory and output during the build of retromon.asm. You can modify the
 ;	included Makefile if your retromon.sym file is located in another location. Comments in the Makefile
 ;	show where to make this change.
 ;
@@ -406,7 +405,7 @@
 ;	the programmer to check the datasheets of the devices being used and decide on the best method of error
 ;	checking if required.
 ;
-;	Additionally the I2C and SPI ports are independent of each other and know about each others use of the
+;	Additionally, the I2C and SPI ports are independent of each other and know about each others use of the
 ;	common PRN_DAT output port on the Z80-Retro! You can initialize and use both types of ports concurrently.
 ;
 ;	Thank you for your interest in this project!

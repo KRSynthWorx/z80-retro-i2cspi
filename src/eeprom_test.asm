@@ -82,7 +82,7 @@
 ; Input: A = EEPROM 7-bit address
 ;		 C = # of bytes to write (min 0x01 - max 0x40)
 ;		 DE = write data buffer address pointer
-;		 HL = EEPROM write address (only A14 - A0 valid (15-bits = 32,767 bytes)
+;		 HL = EEPROM write address (only A14 - A0 valid, 15-bits = 32,767 bytes)
 ; Return: A = Error code
 ; Destroys: A, C
 ;--------------------------------------------------------------------------

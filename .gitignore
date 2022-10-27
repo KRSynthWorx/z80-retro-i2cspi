@@ -1,4 +1,5 @@
 # ignore all z80asm and srec_cat output files
+
 *.bin
 *.lst
 *.hex

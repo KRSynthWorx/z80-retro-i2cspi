@@ -181,7 +181,7 @@ EEPROM_WRITE:
 ; Input: A = EEPROM 7-bit address
 ;		 BC = # of bytes to read (min 0x0001 - max 0x8000)
 ;		 DE = read data buffer address pointer
-;		 HL = EEPROM read address (only A14 - A0 valid (15-bits = 32,767 bytes)
+;		 HL = EEPROM read address (only A14 - A0 valid, 15-bits = 32,767 bytes)
 ; Return: A = Error code
 ; Destroys: A, BC
 ;--------------------------------------------------------------------------

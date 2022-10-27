@@ -1203,7 +1203,7 @@ SPI_INIT:
 ; MODE 1 & 2 if we end up here
 	LD		HL,.SEND_LE			; Leading clock edge SCLK = 1
 	LD		(HL),0xF6			; OR opcode
-	INC		HL					; Advance address pointer
+	INC		HL					; Advance byte pointer
 	LD		(HL),.SCLK			; OR operand SCLK = 1
 
 	LD		HL,.READ_LE			; Do the same for READ_LE

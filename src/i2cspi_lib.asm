@@ -364,6 +364,7 @@
 ;	make eeprom_test.hex	; Build only eeprom_test.asm
 ;	make gpio_test.hex		; Build only gpio_test.asm
 ;	make led_test.hex		; Build only led_test.asm
+;	make oled_test.hex		; Build only oled_test.asm
 ;	make spi_test.hex		; Build only spi_test.asm
 ;	make clean				; Remove all built items
 ;

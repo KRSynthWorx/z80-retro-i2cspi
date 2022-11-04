@@ -76,6 +76,7 @@ commented explaining the library routines and how to use them. These include:
 - [eeprom_test.asm](src/eeprom_test.asm) - test a generic 24C256 I2C EEPROM
 - [gpio_test.asm](src/gpio_test.asm) - test a NXP Semiconductors PCF8574 I2C 8-bit GPIO expander
 - [led_test.asm](src/led_test.asm) - test an Analog Devices MAX7219 LED driver in SPI mode 0
+- [oled_test.asm](src/oled_test.asm) - test a generic SSD1306 128x64 SPI 0.96" OLED display
 - [spi_test.asm](src/spi_test.asm) - test an Analog Devices ADXL345 accelerometer in SPI mode 3
 
 ## Author

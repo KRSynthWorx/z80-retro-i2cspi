@@ -4035,7 +4035,7 @@
   (gr_text "--" (at 147.856661 114.5) (layer "F.SilkS") (tstamp c7cb7900-668c-48ad-80b5-95ff759ba385)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "KRSynthWorx - Oct 2022 - v2.1" (at 116.470661 127.4375) (layer "F.SilkS") (tstamp c903e5db-525d-48e0-a18c-c68794065b5b)
+  (gr_text "KRSynthWorx - Mar 2023 - v2.1" (at 116.470661 127.4375) (layer "F.SilkS") (tstamp c903e5db-525d-48e0-a18c-c68794065b5b)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "--" (at 167.456661 109.4) (layer "F.SilkS") (tstamp ca957e0a-a99f-4d25-9c47-b4bd1805b0cb)

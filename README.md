@@ -20,6 +20,7 @@ ports are all common and the SPI ports include 4 individual chip select (CS) lin
 Requires +5vdc be connected from the Z80-Retro! or an external power supply.
 
 * A PDF version of the schematic can be found [here](kicad/i2c-adapter-schematic.pdf).
+* Build of Materals (aka BOM) can be found [here](kicad/bom/ibom.html).
 
 ### PCB Layout
 

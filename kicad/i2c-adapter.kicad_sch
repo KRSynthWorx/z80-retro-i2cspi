@@ -4144,7 +4144,7 @@
   (symbol (lib_id "i2c-adapter:STEMMA_I2C_QT") (at 255.27 29.21 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 4e5b0047-2cdc-403e-853e-5f49d3a58b1a)
-    (property "Reference" "JST1" (id 0) (at 251.46 20.955 0)
+    (property "Reference" "StemmaQT1" (id 0) (at 251.46 20.955 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
     (property "Value" "JST SH" (id 1) (at 251.46 36.83 0)
@@ -4186,7 +4186,7 @@
   (symbol (lib_id "Adafruit EYESPI Breakout Board-eagle-import:EYE_SPI_DISPLAY_FLIP") (at 248.92 80.01 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5c0d2f8e-f0bd-4cf5-8873-87b92fe3ef7e)
-    (property "Reference" "X1" (id 0) (at 254 57.15 0)
+    (property "Reference" "EyeSPI1" (id 0) (at 254 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "FPC-18x0.5" (id 1) (at 264.16 80.01 90)
@@ -4495,7 +4495,7 @@
   (symbol (lib_id "i2c-adapter:STEMMA_I2C_QT") (at 255.27 31.75 0) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 902b9269-6591-46a9-9c36-7921392c16aa)
-    (property "Reference" "JST1" (id 0) (at 251.46 23.495 0)
+    (property "Reference" "StemmaQT1" (id 0) (at 251.46 23.495 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
     (property "Value" "JST SH" (id 1) (at 251.46 39.37 0)
@@ -4707,7 +4707,7 @@
   (symbol (lib_name "STEMMA_I2C_QT_1") (lib_id "i2c-adapter:STEMMA_I2C_QT") (at 245.11 34.29 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ab3627a7-7803-4c59-9be1-60b81c365de8)
-    (property "Reference" "JST1" (id 0) (at 247.65 26.67 0)
+    (property "Reference" "StemmaQT1" (id 0) (at 247.65 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "JST SH" (id 1) (at 246.38 40.64 0)
@@ -5228,6 +5228,9 @@
     (path "/00000000-0000-0000-0000-0000629953ca"
       (reference "D1") (unit 1) (value "20mA 120°") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
+    (path "/5c0d2f8e-f0bd-4cf5-8873-87b92fe3ef7e"
+      (reference "EyeSPI1") (unit 1) (value "FPC-18x0.5") (footprint "i2c-adapter:EYE_SPI_DISPLAY_BOTCONTACT")
+    )
     (path "/00000000-0000-0000-0000-00006296f9b4"
       (reference "J1") (unit 1) (value "Conn_02x13_Top_Bottom") (footprint "i2c-adapter:PinSocket_2x13_P2.54mm_Vertical")
     )
@@ -5260,15 +5263,6 @@
     )
     (path "/f007b32f-3d91-4755-a4ed-2e77acf9f484"
       (reference "J11") (unit 1) (value "+5V") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
-    )
-    (path "/ab3627a7-7803-4c59-9be1-60b81c365de8"
-      (reference "JST1") (unit 1) (value "JST SH") (footprint "i2c-adapter:JST_SH4")
-    )
-    (path "/4e5b0047-2cdc-403e-853e-5f49d3a58b1a"
-      (reference "JST1") (unit 2) (value "JST SH") (footprint "i2c-adapter:JST_SH4")
-    )
-    (path "/902b9269-6591-46a9-9c36-7921392c16aa"
-      (reference "JST1") (unit 3) (value "JST SH") (footprint "i2c-adapter:JST_SH4")
     )
     (path "/00000000-0000-0000-0000-000062a302fd"
       (reference "R1") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -5309,6 +5303,15 @@
     (path "/00000000-0000-0000-0000-000062ac91e9"
       (reference "RN1") (unit 1) (value "10k") (footprint "Resistor_THT:R_Array_SIP9")
     )
+    (path "/ab3627a7-7803-4c59-9be1-60b81c365de8"
+      (reference "StemmaQT1") (unit 1) (value "JST SH") (footprint "i2c-adapter:JST_SH4")
+    )
+    (path "/4e5b0047-2cdc-403e-853e-5f49d3a58b1a"
+      (reference "StemmaQT1") (unit 2) (value "JST SH") (footprint "i2c-adapter:JST_SH4")
+    )
+    (path "/902b9269-6591-46a9-9c36-7921392c16aa"
+      (reference "StemmaQT1") (unit 3) (value "JST SH") (footprint "i2c-adapter:JST_SH4")
+    )
     (path "/00000000-0000-0000-0000-00006296e541"
       (reference "U1") (unit 1) (value "74HC05") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
@@ -5335,9 +5338,6 @@
     )
     (path "/cc7b7a93-7c0e-43d8-825f-a10023e4184b"
       (reference "U3") (unit 1) (value "LM1117-3.3") (footprint "i2c-adapter:SOT-223")
-    )
-    (path "/5c0d2f8e-f0bd-4cf5-8873-87b92fe3ef7e"
-      (reference "X1") (unit 1) (value "FPC-18x0.5") (footprint "i2c-adapter:EYE_SPI_DISPLAY_BOTCONTACT")
     )
   )
 )

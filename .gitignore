@@ -10,6 +10,7 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_prl
 *.sch-bak
 *~
 _autosave-*

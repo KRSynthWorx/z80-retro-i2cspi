@@ -1,5 +1,7 @@
-# ignore all z80asm and srec_cat output files
+# ignore all z80asm, srec_cat output files and kicad preference files
 
 *.bin
 *.lst
 *.hex
+
+*.kicad_prl
